@@ -16,7 +16,7 @@ const assignmentSchema = new Schema(
     score: {
       type: Number,
       required: true,
-      default: () => Math.floor(Math.random() * (100 - 70 + 1) + 70),
+      default: () => Math.floor(Math.random() * (100 - 71 + 1) + 70),
     },
     createdAt: {
       type: Date,
